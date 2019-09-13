@@ -14,14 +14,14 @@ const Wrapper = styled.div`
 
 const TextHeader = styled.h2`
   text-align: center;
-  background-color: magenta;
+  background-color: darkmagenta;
   color: white;
 `;
 
 const StarWarsCard = props => {
   return (
     <Wrapper classname="wrapper">
-      <TextHeader className="H2">{props.name}</TextHeader>
+      <TextHeader className="H2">{props.name} 🌟 </TextHeader>
       <HomeWorldCard url={props.homeworld} />
       <p>Birth Year: {props.birth_year}</p>
       <p>Eye Color: {props.eye_color}</p>

@@ -2,15 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import StarWarsCard from "./components/StarWarsCard";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button
-} from "reactstrap";
 
 import styled from "styled-components";
 
@@ -19,9 +10,9 @@ const MainDiv = styled.div`
   font-family: roboto;
   margin: 0 auto;
   padding-top: 30px;
-  border: 2px solid red;
   dispay: flex;
   flex-flow: row wrap;
+  justify-content: center;
   font-family: roboto;
 `;
 
@@ -36,6 +27,7 @@ const Text = styled.p`
   text-align: center;
   font-size: 1.6rem;
   font-family: "Geostar Fill", cursive;
+  font-weight: bold;
 `;
 
 const App = () => {
@@ -63,7 +55,7 @@ const App = () => {
   return (
     <div className="logo">
       <Header className="h1">Star Wars</Header>
-      <Text className="paragraph">May the forth be with you</Text>
+      <Text className="paragraph">May the fourth be with you</Text>
 
       <MainDiv className="character-list">
         {starWarsData.map(data => (
