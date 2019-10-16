@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import StarWarsCard from "./components/StarWarsCard";
-
+// import Pagination from "./components/Pagination";
 import styled from "styled-components";
 
 const MainDiv = styled.div`

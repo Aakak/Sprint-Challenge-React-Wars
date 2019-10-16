@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import HomeWorldCard from "./HomeWorldCard";
 
 const Wrapper = styled.div`

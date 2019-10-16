@@ -26,13 +26,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+* ReactJS is a JavaScript library which is used for building user interfaces specifically for single page applications. It’s used for handling view layer for web and mobile apps. React also allows us to create reusable and style UI components. 
+
 - [ ] What does it mean to _think_ in react?
+
+* Thinking in React means a pattern of creating components from other components, of 
+   varying complexity. 
 
 - [ ] Describe state.
 
+* setState() schedules an update to a component’s state object. When state changes, the component responds by re-rendering.
+
+
 - [ ] Describe props.
 
+* Most components can be customized when they are created, with different parameters. These creation parameters are called props, short for properties.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+* A "side effect" is anything that affects something outside the scope of the function being executed.
+
+
+
 
 ## Project Set Up
 
