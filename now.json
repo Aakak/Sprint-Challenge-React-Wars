@@ -1,9 +1,9 @@
 {
     "version": 2,
-    "name": "starwars",
+    "name": "Sprint-Challenge-React-Wars",
     "builds": [
-        { "src": "starwars/package.json", "use": "@now/static-build ", "config": {"distDir": "build"} }],
+        { "src": "Sprint-Challenge-React-Wars/package.json", "use": "@now/static-build ", "config": {"distDir": "build"} }],
     "routes": [
-        { "src": "/(.*)", "dest": "starwars/public/$1" }
+        { "src": "/(.*)", "dest": "Sprint-Challenge-React-Wars/public/$1" }
     ]
 }
