@@ -2,7 +2,7 @@
     "version": 2,
     "name": "starwars",
     "builds": [
-        { "src": "starwars/package.json", "use": "@now/public", "config": {"distDir": "build"} }],
+        { "src": "starwars/package.json", "use": "@now/static-build ", "config": {"distDir": "build"} }],
     "routes": [
         { "src": "/(.*)", "dest": "starwars/public/$1" }
     ]
