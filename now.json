@@ -1,8 +1,9 @@
 {
     "version": 2,
     "name": "starwars",
-    "builds": [{ "src": "project-name/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "builds": [
+        { "src": "starwars/package.json", "use": "@now/public", "config": {"distDir": "build"} }],
     "routes": [
-        { "src": "/(.*)", "dest": "project-name/$1" }
+        { "src": "/(.*)", "dest": "starwars/public/$1" }
     ]
 }
